@@ -446,7 +446,14 @@ color:#681543;
 background-color: #681543;
 color:#D9D1DE;
 }
-/* herounit */
+/* -----------------------------------herounit ---------------------------------*/
+.slide2_div1{
+  display: grid;
+  align-items: center;
+}
+.slide2_div2{
+display: flex; 
+}
 .slideshow-container {
   max-width: 100%;
   position: relative;
