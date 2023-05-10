@@ -44,7 +44,14 @@ color: #681543;
     align-items: stretch; /* Set boxes to have same height */
     margin: 80px; /* Add margin around the container */
   }
-  
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
   .box {
     flex-basis: 30%;
     width: 30%; /* Add width to set the size of the box */
