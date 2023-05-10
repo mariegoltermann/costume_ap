@@ -1,22 +1,60 @@
+.container {
+  justify-content: space-between;
+  align-items: stretch; /* Set boxes to have same height */
+  margin: 20px; /* Add margin around the container */
+}
 
-/*** AI ***/ 
+.box {
+  background-color: #D9D1DE;
+  padding: 20px;
+  margin: 10px; /* Add margin between the boxes */
+  display: flex; /* Add display flex to center radio buttons */
+  flex-direction: column; /* Set radio buttons to be stacked vertically */
+  justify-content: space-between; /* Add space between elements in box */
+  box-shadow: 5px 5px 2px lightslategray;
+}
+
+.box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.videre-button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 25%;
+width: 200px;
+height: 60px;
+background: #681543;
+color: #D9D1DE;
+}
+
+.videre-button:hover{
+  background: #D9D1DE;
+color: #681543;
+}
+/*** -------------------- desktop ------------------------------------------------**/ 
+@media only screen and (min-width: 768px) {
 .container {
     display: flex;
     justify-content: space-between;
     align-items: stretch; /* Set boxes to have same height */
-    margin: 20px; /* Add margin around the container */
+    margin: 80px; /* Add margin around the container */
   }
   
   .box {
     flex-basis: 30%;
     width: 30%; /* Add width to set the size of the box */
-    background-color: #f5f5f5;
-    padding: 20px;
+    background-color: #D9D1DE;
+    padding: 49px;
     margin: 0 10px; /* Add margin between the boxes */
-    border: 1px solid #ccc;
     display: flex; /* Add display flex to center radio buttons */
     flex-direction: column; /* Set radio buttons to be stacked vertically */
     justify-content: space-between; /* Add space between elements in box */
+    box-shadow: 5px 5px 2px lightslategray;
   }
   
   .bigger-box {
@@ -34,12 +72,22 @@
   }
   
   .videre-button {
-    background-color: #4CAF50;
-    color: white;
+   
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
+    position: absolute;
+    margin-left: 80%;
+width: 200px;
+height: 60px;
+background: #681543;
+color: #D9D1DE;
   }
+
+  .videre-button:hover{
+    background: #D9D1DE;
+color: #681543;
+  }
+}

@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bella{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .content {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .shopping-packs {
+    margin-top: 20px;
+  }
+  
+  .shopping-packs h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .shopping-packs ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shopping-packs li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  /* Create a container for the images */
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the images */
+  .image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Style the subheadlines */
+  .subheadline {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
