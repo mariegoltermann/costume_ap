@@ -4,83 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+      </style>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <img class="logo" src="logo.svg" alt="logo">
-        <ul>
-          <li><a class="underline-animation" href="#">COSTUME GREEN <img src="Billeder/dropdown.svg" alt="drop"></a>
-            <ul>
-              <li><a href="#">Mode</a></li>
-              <li><a href="#">Skøn</a></li>
-              <li><a href="#">Sund</a></li>
-              <li><a href="#">Kultur</a></li>
-              <li><a href="#">Living</a></li>
-            </ul>
-        </li>
-          <li><a class="underline-animation"  href="#">MODE <img src="Billeder/dropdown.svg" alt="drop"></a>
-            <ul>
-              <li><a href="#">Modeuge</a></li>
-              <li><a href="#">Shopping</a></li>
-              <li><a href="#">Streetstyle</a></li>
-              <li><a href="#">Interview</a></li>
-              <li><a href="#">Mini</a></li>
-            </ul>
-          </li>
-          <li><a class="underline-animation"  href="#">SKØN <img src="Billeder/dropdown.svg" alt="drop"></a>
-            <ul>
-                <li><a href="#">Nyheder</a></li>
-                <li><a href="#">Makeup</a></li>
-                <li><a href="#">Hår</a></li>
-                <li><a href="#">Hudpleje</a></li>
-                <li><a href="#">#skønhedsfavoritter</a></li>
-              </ul></li>
-          <li><a class="underline-animation"  href="#">SUND <img src="Billeder/dropdown.svg" alt="drop"></a>
-            <ul>
-                <li><a href="#">Træning</a></li>
-                <li><a href="#">Opskrifter</a></li>
-              </ul></li>
-          <li><a class="underline-animation"  href="#">KULTUR <img src="Billeder/dropdown.svg" alt="drop"></a>
-            <ul>
-                <li><a href="#">Film & serier</a></li>
-                <li><a href="#">Rejse</a></li>
-                <li><a href="#">Spisesteder</a></li>
-              </ul></li>
-          <li><a class="underline-animation" href="#">LIVING <img src="Billeder/dropdown.svg" alt="drop"></a>
-            <ul>
-              <li><a href="#">Horoskop</a></li>
-              <li><a href="#">Boliger</a></li>
-              <li><a href="#">Boligfund</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <button class="abonnement-button" onclick="window.location.href = 'abonnement.html';" >Abonnement</button>
-      <button class="Goodiebox-button" onclick="window.location.href = 'goodiebox.html';">Goodiebox</button>
+  <nav id="header-nav">
+    <div class="menu">
+      <img class="logo" src="logo.svg" alt="logo">
+      <div class="menu2">
+        <button class="abonnement-button" onclick="window.location.href = 'abonnement.html';" >Abonnement</button>
+        <button class="Goodiebox-button" onclick="window.location.href = 'goodiebox.html';">Goodiebox</button> 
+        <img src="Billeder/search.svg" alt="search">
     </div>
-      </nav>
+      </div>
+      <button id="burgermenu">☰ </button>
+      <ul>
+        <li><a class="underline-animation" href="#">COSTUME GREEN <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+            <li><a href="#">Mode</a></li>
+            <li><a href="#">Skøn</a></li>
+            <li><a href="#">Sund</a></li>
+            <li><a href="#">Kultur</a></li>
+            <li><a href="#">Living</a></li>
+          </ul>
+      </li>
+        <li><a class="underline-animation"  href="#">MODE <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+            <li><a href="#">Modeuge</a></li>
+            <li><a href="#">Shopping</a></li>
+            <li><a href="#">Streetstyle</a></li>
+            <li><a href="#">Interview</a></li>
+            <li><a href="#">Mini</a></li>
+          </ul>
+        </li>
+        <li><a class="underline-animation"  href="#">SKØN <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="#">Nyheder</a></li>
+              <li><a href="#">Makeup</a></li>
+              <li><a href="#">Hår</a></li>
+              <li><a href="#">Hudpleje</a></li>
+              <li><a href="#">#skønhedsfavoritter</a></li>
+            </ul></li>
+        <li><a class="underline-animation"  href="#">SUND <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="#">Træning</a></li>
+              <li><a href="#">Opskrifter</a></li>
+            </ul></li>
+        <li><a class="underline-animation"  href="#">KULTUR <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="#">Film & serier</a></li>
+              <li><a href="#">Rejse</a></li>
+              <li><a href="#">Spisesteder</a></li>
+            </ul></li>
+        <li><a class="underline-animation" href="#">LIVING <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+            <li><a href="#">Horoskop</a></li>
+            <li><a href="#">Boliger</a></li>
+            <li><a href="#">Boligfund</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </nav> 
       <div class="popup">
         <div class="popup-content">
           <span class="close">&times;</span>
-          <h2>Tilmeld dig vores nyhedsbrev</h2>
-          <form>
-            <label for="name">Navn:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit" class="submit-btn">Tilmeld</button>
-          </form>
+          <div class="newsletter-box">
+            <div class="input-section">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="accept-terms">I accept the terms and conditions</label>
+              <input type="checkbox" id="accept-terms" name="accept-terms" required>
+              <button class="submit" type="submit">Tilmed</button>
+            </div>
+            <div class="info-section">
+              <h2>Mere mode?</h2>
+              <h2>Mere skønhed?</h2>
+              <h2>Mere Costume?</h2>
+            </div>
+          </div>
         </div>
       </div>
       <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="Ikke-navngivet-2.png" alt="Slide 1" style="width:100%">
+        <div class="mySlides fade" onclick="window.location.href = 'abonnement.html';" alt="Slide 1" style="width:100%">
+          <div>
+            <img src="Billeder/kongelige_billede.png" alt="kongelig">
+            <div>
+              <h2>Vind teaterkort & teaterbilletter til</h2> 
+              <
+            </div>
+          </div>
+         
         </div>
       
         <div class="mySlides fade">
-          <img src="Ikke-navngivet-3.png" alt="Slide 2" style="width:100%">
+          <img src="Billeder/kongelige.svg"  onclick="window.location.href = 'underkategori.html';" alt="Slide 2" style="width:100%">
         </div>
       
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -90,7 +113,7 @@
       <section>
     <img class="overskrifter" src="Billeder/nyeste.svg" alt="nyeste">
         <div class="container">
-            <div
+            <div onclick="window.location.href = 'underkategori.html';"
                 class="card card-tall card-wide"
                 style="background-image:url(Billeder/haarklips.png)"
               >
@@ -100,47 +123,47 @@
                 class="card card-tall"
                 style="background-image:url(Billeder/bamsesko.png)"
               >
-                2
+              Tendens: Hop med på bølgen
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card"
                 style="background-image:url(Billeder/carrie.png)"              >
-                3
+                9 inspirerende modeprofiler på Instagram
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card"
                 style="background-image:url(Billeder/drinks.png)"              >
-                4
+                Intet er overladt til fantasien
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card"
                 style="background-image:url(Billeder/flaser.png)"              >
-                5
+                Denne forretning gør op med blomsterspild
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card"
                 style="background-image:url(Billeder/sneakers.png)"              >
-                6
+                Elegant og klassisk halskæde præger modebilledet
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card card-wide"
                 style="background-image:url(Billeder/taske.png)"              >
-                7
+                Verden rundt: Autentiske restauranter i København
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card"
                 style="background-image:url(Billeder/transparent.png)"              >
-                8
+                "Jeg har testet den nye peeling maske fra Rudolph Care. Her er min ærlige mening."
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card"
-                style="background-image:url(Billeder/Skærmbillede\ 2023-03-14\ kl.\ 11.41.27.png)"              >
-                9
+                style="background-image:url(Billeder/ansigt.png)"              >
+                Kosmetologen: Denne ingrediens fra køkkenet renser tilstoppede porer
               </div>
-              <div
+              <div onclick="window.location.href = 'underkategori.html';"
                 class="card"
-                style="background-image:url(Billeder/Skærmbillede\ 2023-03-14\ kl.\ 11.41.41.png)"              >
-                10
+                style="background-image:url(Billeder/emili.png)"              >
+                Her er de 12 sejeste biker jackets 
               </div>
         </div>
       </section>
@@ -159,27 +182,27 @@
           </li>
           <li>
             <img class="numbers" src="Billeder/3.svg" alt="et">
-            Item 3
+            Ud med sort mascara – nu skal vipperne have denne farve
           </li>
           <li>
             <img class="numbers" src="Billeder/4.svg" alt="et">
-            Item 4
+            Undgå tøjkrise med disse 5 råd
           </li>
           <li>
             <img class="numbers" src="Billeder/5.svg" alt="et">
-            Item 5
+            Nu kan du shoppe online i 252 genbrugsbutikker
           </li>
           <li>
             <img class="numbers" src="Billeder/6.svg" alt="et">
-            Item 6
+            3 af Malmøs bedste genbrugsbutikker
           </li>
           <li>
             <img class="numbers" src="Billeder/7.svg" alt="et">
-            Item 7
+            3 billige og gode kaffesteder i København
           </li>
           <li>
             <img class="numbers" src="Billeder/8.svg" alt="et">
-            Item 8
+            De vildeste "cat-fits" til dette års Met Gala
           </li>
         </ul>
       </div>
@@ -187,14 +210,39 @@
     <section>
 <section>
   <img class="overskrifter" src="Billeder/kanaler.svg" alt="nyeste">
+  <h2>Følg med på vores social  kanaler og få de nyeste opdateringer</h2>
   <img class="iphones" src="v980-s73-eve-aum-01-mockup.png" alt="iphones">
 </section>
     </section>
     <section>
       <img class="overskrifter" src="Billeder/goodiebox.svg" alt="nyeste">
+      <img class="goodiebox-teaser" src="Billeder/goodibox_teaser.svg" alt="goodiebox">
+      <button class="Goodiebox-button-section" onclick="window.location.href = 'goodiebox.html';">Se tilbud</button>
     </section>
     <section>
       <img class="overskrifter" src="Billeder/smugkig.svg" alt="nyeste">
+      <style>
+        .parallax {
+          /* The image used */
+          background-image: url("billeder/smugkig.png");
+        
+          /* Set a specific height */
+          min-height: 200px; 
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+
+        
+        <div class="parallax">
+        <img class="smugkig_over" src="Billeder/smugkig_over2.png" alt="smug">
+        <div>
+       
+        </div>
     </section>
     <section>
       <img class="overskrifter" src="Billeder/tilmed.svg" alt="nyeste">
@@ -206,7 +254,7 @@
           <input type="email" id="email" name="email" required>
           <label for="accept-terms">I accept the terms and conditions</label>
           <input type="checkbox" id="accept-terms" name="accept-terms" required>
-          <button type="submit">Submit</button>
+          <button class="submit" type="submit">Tilmed</button>
         </div>
         <div class="info-section">
           <h2>Mere mode?</h2>
@@ -218,38 +266,41 @@
     <footer>
       <div class="footer-container">
         <div class="footer-column">
-          <h3>Column 1</h3>
+          <h3>Hjælp</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>Kundeservice</li>
+            <li>Tlf: + 45 3910 3000</li>
+            <li>Selvbetjening</li>
           </ul>
         </div>
         <div class="footer-column">
-          <h3>Column 2</h3>
+          <h3>Om Costume</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>Abonnér nu</li>
+            <li>Wype - digitalt magasin</li>
+            <li>Podcast</li>
+            <li>Kontakt redaktionen</li>
           </ul>
         </div>
         <div class="footer-column">
-          <h3>Column 3</h3>
+          <h3>Info</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>Annoncørinfo</li>
+            <li>Job</li>
+            <li>Presse</li>
           </ul>
         </div>
         <div class="footer-column">
-          <h3>Column 4</h3>
+          <h3>Udgiver</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>
+              Bonnier Publications International A/S
+              Postboks 543 1411 Kolbotn Norge Org.: 977041066</li>
           </ul>
         </div>
       </div>
+      <img src="Billeder/insta.svg" alt="insta">
+      <img src="Billeder/facebook.svg" alt="facebook">
     </footer>
       <script src="java.js"></script>
 </body>
