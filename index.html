@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
       </style>
@@ -21,7 +22,7 @@
     </div>
       </div>
       <button id="burgermenu">☰ </button>
-      <ul>
+      <ul id="nav-list">
         <li><a class="underline-animation" href="#">COSTUME GREEN <img src="Billeder/dropdown.svg" alt="drop"></a>
           <ul>
             <li><a href="#">Mode</a></li>
@@ -67,61 +68,50 @@
           </ul>
         </li>
       </ul>
-
     </nav> 
-      <div class="popup">
-        <div class="popup-content">
-          <span class="close">&times;</span>
-          <div class="newsletter-box">
-            <div class="input-section">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-              <label for="accept-terms">I accept the terms and conditions</label>
-              <input type="checkbox" id="accept-terms" name="accept-terms" required>
-              <button class="submit" type="submit">Tilmed</button>
-            </div>
-            <div class="info-section">
-              <h2>Mere mode?</h2>
-              <h2>Mere skønhed?</h2>
-              <h2>Mere Costume?</h2>
-            </div>
-          </div>
-        </div>
-      </div>
+  
       <div class="slideshow-container">
         <div class="mySlides fade" onclick="window.location.href = 'abonnement.html';" alt="Slide 1" style="width:100%">
-          <div>
-            <img src="Billeder/kongelige_billede.png" alt="kongelig">
+          <div class="herounit1">
+            <img class="kongeligbilled" src="Billeder/kongelige_billede.png" alt="kongelig">
             <div>
-              <h2>Vind teaterkort & teaterbilletter til</h2> 
-              <img src="Billeder/konegligeoverskrift.svg" alt="kongelig">
+              <h2 class="herounit1_overskrift">Vind teaterkort & teaterbilletter til</h2> 
+              <img class="kongeligoverskrift" src="Billeder/konegligeoverskrift.svg" alt="kongelig">
             </div>
           </div>
          
         </div>
       
         <div class="mySlides fade" onclick="window.location.href = 'underkategori.html';" alt="Slide 2" style="width:100%">
-          <div>
+          <div class="herounit2">
+          <div class="bjaelke">
+            <div>
             <div class="slide2_div1">
-            <h1>Få tilsendt en goodiebox med hvert magasin!</h1>
-            <p> Tegn et abonnement og få tilsendt en Goodiebox med hvert nyudkomne magasin, som er spaekket med spaendende produkter, som er nøje udvalgte af Costume´s skønhedsredaktør.</p>
+            <h1 class="slide2_h1">Få tilsendt en goodiebox med hvert magasin!</h1>
           </div>
+          <img class="bladoggoodie" src="Billeder/bladoggoodie.png" alt="blad">
+        </div>
+      </div>
             <div class="slide2_div2">
               <div>
-                <img src="Billeder/Group5.svg" alt="5">
-              
+                <img class="testi" src="Billeder/Group5.svg" alt="5">
+              <h4>Altid 5-7 lækre produkter.<br><br>
+                Altid mindst 2 full size produkter.</h4>
               </div>
               <div>
-                <img src="Billeder/Group6.svg" alt="5">
+                <img class="testi" src="Billeder/Group6.svg" alt="5">
+                <h4>Altid en god deal.<br><br>
+                  Altid 100 % tilfredshedsgaranti.</h4>
               </div>
               <div>
-                <img src="Billeder/Group7.svg" alt="5">
+                <img class="testi" src="Billeder/Group7.svg" alt="5">
+                <h4>Værdi for pengene<br><br>
+                  Altid værdi for minimum 650 kr.</h4>
               </div>
             </div>
-          </div>
-          <img src="Billeder/blad_goodiebox.png" alt="blad">
+          
+        </div>
+      </div>
         </div>
       
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -192,7 +182,7 @@
         <ul class="row">
           <li>
           <img class="numbers" src="Billeder/1.svg" alt="et">
-          Denne taske er gået viralt på TikTok, og den koster kun 150 kroner
+          Denne taske er gået viralt på TikTok, og den koster 150kr. 
           </li>
           <li>
             <img class="numbers" src="Billeder/2.svg" alt="et">
@@ -270,9 +260,12 @@
           <input type="text" id="name" name="name" required>
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required>
+          <div class="accepter">
+           <input id="accept-knap" type="checkbox" id="accept-terms" name="accept-terms" required>
           <label for="accept-terms">I accept the terms and conditions</label>
-          <input type="checkbox" id="accept-terms" name="accept-terms" required>
+        </div>
           <button class="submit" type="submit">Tilmed</button>
+
         </div>
         <div class="info-section">
           <h2>Mere mode?</h2>

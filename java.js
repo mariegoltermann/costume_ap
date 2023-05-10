@@ -20,40 +20,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
 }
 
-// Automatically advance the slideshow every 5 seconds
-setInterval(function() {
-  plusSlides(1);
-}, 5000);
 
-
-// Find popup'en og luk-knappen
-const popup = document.querySelector(".popup");
-const closeBtn = document.querySelector(".close");
-const submitBtn = document.querySelector(".submit-btn");
-
-// Vis popup'en når siden indlæses
-window.addEventListener("load", function(){
-  popup.style.display = "block";
-});
-
-// Luk popup'en når brugeren klikker på luk-knappen
-closeBtn.addEventListener("click", function(){
-  popup.style.display = "none";
-});
-
-// Luk popup'en når brugeren klikker på tilmeld-knappen
-submitBtn.addEventListener("click", function(){
-  popup.style.display = "none";
-});
-
-// Luk popup'en når brugeren klikker uden for popup'en
-window.addEventListener("click", function(event) {
-  if (event.target == popup) {
-    popup.style.display = "none";
-  }
-});
-
-/* burgermenu*/
+// burgermenu
 const burgermenu = document.getElementById("burgermenu");
 const nav = document.getElementById("nav-list");
 
