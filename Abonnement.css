@@ -63,7 +63,7 @@ color: #681543;
     justify-content: space-between; /* Add space between elements in box */
     box-shadow: 5px 5px 2px lightslategray;
   }
-  
+ 
   .bigger-box {
     flex-basis: 40%;
   }

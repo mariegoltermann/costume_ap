@@ -135,7 +135,7 @@ li ul li a:hover {
   color:white;
 } 
 /* --------------------------------- burgermenu stopper------------------------*/
-
+/* --------------------------------- navigation------------------------*/
 .menu2{
   justify-content: center;
   display: flex;
@@ -164,7 +164,7 @@ color:#681543;
 background-color: #681543;
 color:#D9D1DE;
 }
-/* herounit */
+/* --------------------------------- herounit ------------------------*/
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -460,7 +460,7 @@ h2 {
   text-align: center;
 }
 
-
+/*----------------------------- footer mobil -------------------------------*/
 footer {
 background-color: black;
 color: white;
@@ -471,7 +471,38 @@ font-size: 16px;
 font-weight: bold;
 margin-bottom: 10px;
 }
+footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 16px;
+}
 
+.container_footer {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.col-md-3 {
+  width: 25%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.ul_f {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li_f {
+  margin-bottom: 10px;
+}
+.sociale{
+  display: flex;
+  justify-content: end;
+margin-right: 10%;
+}
   
 
 
@@ -963,37 +994,47 @@ h2 {
 h3{
   text-align: center;
 }
-
-
+/*---------------------------------- footer--------------------------------------*/
 footer {
-background-color: black;
-color: white;
-padding: 20px 0;
+  background: #000;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 16px;
 }
 
-.footer-container {
-display: flex;
-justify-content: space-between;
-max-width: 1200px;
-margin: 0 auto;
+.container_footer {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.footer-column {
-flex-basis: 22%;
+.row_footer {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.footer-column h3 {
-font-size: 16px;
-font-weight: bold;
-margin-bottom: 10px;
+.col-md-3 {
+  width: 25%;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
-.footer-column ul {
-list-style: none;
-padding: 0;
+.h4footer {
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
-.footer-column li {
-margin-bottom: 5px;
+.ul_f {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li_f {
+  margin-bottom: 10px;
+}
+.sociale{
+  display: flex;
+  justify-content: end;
+margin-right: 10%;
 }
 }
