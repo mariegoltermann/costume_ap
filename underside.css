@@ -43,3 +43,89 @@
     grid-column: span 2/auto;
     }
     }
+      .cardimg{
+        width: 70%;
+      }
+      .next{
+        display: flex;
+        justify-content: end;
+        margin-right: 5%;
+      }
+
+      /*--------------------------------------------- desktop------------------------------*/
+      @media only screen and (min-width: 768px) {
+/* Overskrifter */
+.overskrifter{
+    width: 99%;
+    }
+    /* grid mosaik */
+    .container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); 
+    /*    auto-fit will make columns fit on page 
+        auto-fill will not make the columns stretch */
+    grid-auto-rows: 240px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #D9D1DE;
+      font-size: 1.5rem;
+      color: white;
+      box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+      height: 100%;
+      width: 100%;
+      border-radius: none;
+      transition: all 500ms;
+      overflow: hidden;
+    
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .card:hover {
+      box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+      transform: translateY(-3px) scale(1.1);
+    }
+    @media only screen and (min-width: 600px){
+    .card-tall {
+    grid-row: span 2/auto;
+    }
+    
+    .card-wide {
+    grid-column: span 2/auto;
+    }
+    }
+.menu_linjen{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 5%;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+width: 200px;
+height: 60px;
+background: black;
+color: white;
+}
+
+    .flex_row{
+        display: flex;
+        align-items: center;
+      }
+      .cardimg{
+        width: 70%;
+      }
+      .next{
+        display: flex;
+        justify-content: end;
+        margin-right: 5%;
+      }
+
+      }

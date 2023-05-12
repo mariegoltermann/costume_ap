@@ -1,3 +1,27 @@
+/*------------------ fonte slut -----------------------*/
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+label{
+  font-family: 'Roboto', sans-serif;
+}
+/*------------------ fonte slut -----------------------*/
 #burgermenu {
   padding: 0.5rem;
   height: 3rem;
@@ -244,15 +268,16 @@ h1{
     cursor: pointer;
 width: 200px;
 height: 60px;
-background: #681543;
-color: #D9D1DE;
+background: black;
+color: white;
 margin-left: 25%;
 margin-bottom: 5%;
 }
 .tilmeld-button:hover{
-  background: #D9D1DE;
-color: #681543;
+  background: white;
+  color: black;
 }
+
 .komigang-button{
   padding: 10px 20px;
     border: none;
@@ -260,14 +285,14 @@ color: #681543;
     cursor: pointer;
 width: 200px;
 height: 60px;
-background: #681543;
-color: #D9D1DE;
+background: black;
+color: white;
 margin-left: 25%;
 margin-bottom: 5%;
 }
 .komigang-button:hover{
-  background: #D9D1DE;
-color: #681543;
+  background: white;
+  color: black;
 }
 @-webkit-keyframes fade {
   from {
@@ -340,7 +365,6 @@ grid-auto-rows: 240px;
   justify-content: center;
   align-items: center;
   background: #D9D1DE;
-  font-size: 1.5rem;
   color: white;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
   height: 100%;
@@ -377,9 +401,7 @@ width: 80%;
 margin-left: 50px;
 }
 
-h3{
-  font-family: 'Roboto', sans-serif;
-}
+
 
 /* goodiebox*/
 
@@ -391,13 +413,13 @@ margin-left: 20px;
 border: none;
 width: 166px;
 height: 40px;
-color: #D9D1DE;
-background:#681543;
+color: white;
+background:black;
 margin-left: 27%;
 }
 .Goodiebox-button-section:hover{
-  color:#681543;
-background: #D9D1DE;
+  color:black;
+background: white;
 }
 /* smugkig*/
 .smugkig_over{
@@ -467,8 +489,8 @@ color: white;
 }
 
 .footer-column h3 {
-font-size: 16px;
-font-weight: bold;
+/* font-size: 16px; */
+
 margin-bottom: 10px;
 }
 footer {
@@ -671,13 +693,13 @@ color:#D9D1DE;
     cursor: pointer;
 width: 200px;
 height: 60px;
-background: #681543;
-color: #D9D1DE;
+background: black;
+color: white;
 margin-left: 34%;
 }
 .tilmeld-button:hover{
-  background: #D9D1DE;
-color: #681543;
+  background: white;
+  color: black;
 }
 .komigang-button{
   padding: 10px 20px;
@@ -686,14 +708,14 @@ color: #681543;
     cursor: pointer;
 width: 200px;
 height: 60px;
-background: #D9D1DE;
-color: #681543;
-margin-left: 25%;
+background: black;
+color: white;
+margin-left: 33%;
 margin-bottom: 5%;
 }
 .komigang-button:hover{
-  background: #681543;
-color: #D9D1DE;
+  background: white;
+color: black;
 }
 .next {
   right: 0;
@@ -750,7 +772,6 @@ color: #D9D1DE;
 .slide2_h1{
   justify-content: center;
   display: grid;
-  color: white;
 }
 .slide2_p{
   justify-content: center;
@@ -758,9 +779,6 @@ color: #D9D1DE;
 }
 .herounit1{
   display: flex;
-}
-.bjaelke{
-  background-color: black;
 }
 .testi{
   margin-left: 20%;
@@ -817,7 +835,6 @@ grid-auto-rows: 240px;
   justify-content: center;
   align-items: center;
   background: #D9D1DE;
-  font-size: 1.5rem;
   color: white;
   box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
   height: 100%;
@@ -825,7 +842,6 @@ grid-auto-rows: 240px;
   border-radius: none;
   transition: all 500ms;
   overflow: hidden;
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -833,6 +849,8 @@ grid-auto-rows: 240px;
 .card:hover {
   box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
   transform: translateY(-3px) scale(1.1);
+  /* -webkit-filter: blur(2px);
+      filter: blur(2px); */
 }
 @media only screen and (min-width: 600px){
 .card-tall {
@@ -870,14 +888,14 @@ margin-left: 70px;
   border: none;
   width: 166px;
   height: 40px;
-  color: #D9D1DE;
-  background:#681543;
+  color: white;
+  background:black;
   margin-left: 45%;
   margin-top: 3%;
   }
   .Goodiebox-button-section:hover{
-    color:#681543;
-  background: #D9D1DE;
+    color:black;
+  background: white;
   }
 
 /* smugkig*/
@@ -1036,5 +1054,28 @@ footer {
   display: flex;
   justify-content: end;
 margin-right: 10%;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  Font-weight:400;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+label{
+  font-family: 'Roboto', sans-serif;
 }
 }
