@@ -1,4 +1,14 @@
-/*------------------ fonte slut -----------------------*/
+/*------------------ fonte start -----------------------*/
+@font-face {
+  font-family: "nelphim";
+  src: url("fonts/nephilm-webfont.woff2") format("woff2");
+}
+h1{
+  font-family: "nelphim";
+}
+h2{
+  font-family: "nelphim";
+}
 h3{
   font-family: 'Roboto', sans-serif;
 }
@@ -19,6 +29,9 @@ button{
   font-weight: bold;
 }
 label{
+  font-family: 'Roboto', sans-serif;
+}
+a{
   font-family: 'Roboto', sans-serif;
 }
 /*------------------ fonte slut -----------------------*/
@@ -157,9 +170,13 @@ li ul li a {
 li ul li a:hover {
   background-color: black;
   color:white;
-} 
+}
 /* --------------------------------- burgermenu stopper------------------------*/
 /* --------------------------------- navigation------------------------*/
+.logo{
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
 .menu2{
   justify-content: center;
   display: flex;
@@ -237,16 +254,15 @@ color:#D9D1DE;
   margin-top: 5%;
 }
 .testi{
-  margin-left: 22%;
+  margin-left: 39%;
   margin-top: 5%;
 }
 .slide2_div2{
-  display: flex;
   margin-bottom: 10%;
 }
 h4{
   font-size: 10px;
-  text-align: center;
+text-align: center;
 }
 h1{
   text-align: center;
@@ -259,7 +275,7 @@ h1{
   width: 100%;
 }
 .herounit1_overskrift{
-  margin-left: 6%;
+  margin-left: 0%;
 }
 .tilmed-button{
   padding: 10px 20px;
@@ -272,10 +288,6 @@ background: black;
 color: white;
 margin-left: 25%;
 margin-bottom: 5%;
-}
-.tilmeld-button:hover{
-  background: white;
-  color: black;
 }
 
 .komigang-button{
@@ -290,10 +302,7 @@ color: white;
 margin-left: 25%;
 margin-bottom: 5%;
 }
-.komigang-button:hover{
-  background: white;
-  color: black;
-}
+
 @-webkit-keyframes fade {
   from {
     opacity: .4
@@ -349,6 +358,8 @@ padding: 10px;
 /* Overskrifter */
 .overskrifter{
 width: 99%;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 /* grid mosaik */
 .container {
@@ -393,7 +404,8 @@ grid-column: span 2/auto;
 
 /* populære */
 .numbers{
-width: 8%;
+width: 20%;
+margin-left: 39%;
 }
 /* kanaler  */ 
 .iphones{
@@ -401,7 +413,9 @@ width: 80%;
 margin-left: 50px;
 }
 
-
+.costumedk{
+  text-align: center;
+}
 
 /* goodiebox*/
 
@@ -415,12 +429,11 @@ width: 166px;
 height: 40px;
 color: white;
 background:black;
-margin-left: 27%;
+margin-left: 30%;
+margin-bottom: 5%;
+margin-top: 5%;
 }
-.Goodiebox-button-section:hover{
-  color:black;
-background: white;
-}
+
 /* smugkig*/
 .smugkig_over{
 width: 100%;
@@ -481,63 +494,90 @@ h2 {
   margin-bottom: 20px;
   text-align: center;
 }
-
+.accept_text{
+  font-size: 10px;
+}
 /*----------------------------- footer mobil -------------------------------*/
-footer {
-background-color: black;
-color: white;
-}
-
-.footer-column h3 {
-/* font-size: 16px; */
-
-margin-bottom: 10px;
-}
 footer {
   background: #000;
   color: #fff;
-  padding: 40px 0;
-  font-size: 16px;
 }
 
-.container_footer {
-  max-width: 1140px;
-  margin: 0 auto;
-}
+.h4footer {
+margin-left: 10%;
+text-align: unset;
+font-size: 16px;
+margin-block-end: none;
 
-.col-md-3 {
-  width: 25%;
-  padding: 0 15px;
-  box-sizing: border-box;
 }
 
 .ul_f {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+margin-left: none;
+list-style: none;
 }
 
 .li_f {
-  margin-bottom: 10px;
+float: none;
+list-style: none;
 }
 .sociale{
   display: flex;
   justify-content: end;
 margin-right: 10%;
 }
-  
-
-
 
 /*----------------------------- desktop-------------------------------*/
 /* navigation */
 @media only screen and (min-width: 768px) {
-
+/*------------------ fonte start -----------------------*/
+@font-face {
+  font-family: "nelphim";
+  src: url("fonts/nephilm-webfont.woff2") format("woff2");
+}
+h1{
+  font-family: "nelphim";
+  Font-size: 40px;
+}
+h2{
+  font-family: "nelphim";
+  Font-size: 35px;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  Font-size: 21.25px;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+  Font-size: 15.00px; 
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+label{
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+}
+/*------------------ fonte slut -----------------------*/
 .logo{
   width: 40%;
   display: flex;
 justify-content: center;
 align-items: center;
+margin-right: 0%;
+margin-bottom: 0%;
 }
 .menu{
   display: flex;
@@ -572,7 +612,11 @@ nav ul li {
 ul {
   list-style-type: none;
   overflow: hidden;
-  margin-left: 70px;
+}
+#nav-list {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
 }
 .underline-animation {
   position: relative;
@@ -613,6 +657,10 @@ li ul {
   background-color: white;
   min-width: 160px;
   z-index: 1;
+  margin-left: -3%;
+}
+.costumeg{
+  margin-left: 0%;
 }
 
 li:hover ul {
@@ -691,31 +739,32 @@ color:#D9D1DE;
     border: none;
     font-size: 16px;
     cursor: pointer;
-width: 200px;
+width: 360px;
 height: 60px;
 background: black;
 color: white;
-margin-left: 34%;
+margin-left: 30%;
 }
-.tilmeld-button:hover{
-  background: white;
-  color: black;
+.tilmed-button:hover{
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
 }
 .komigang-button{
   padding: 10px 20px;
     border: none;
     font-size: 16px;
     cursor: pointer;
-width: 200px;
+width: 360px;
 height: 60px;
 background: black;
 color: white;
-margin-left: 33%;
-margin-bottom: 5%;
+margin-left: 30%;
+margin-bottom: 2%;
+margin-top: 5%;
 }
 .komigang-button:hover{
-  background: white;
-color: black;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+   transform: translateY(-3px) scale(1.1);
 }
 .next {
   right: 0;
@@ -766,7 +815,7 @@ color: black;
 .slide2_div2{
   display: flex;
   justify-content: center;
-  gap: 15%;
+  gap: 10%;
   padding-top: 2%;
 }
 .slide2_h1{
@@ -781,7 +830,7 @@ color: black;
   display: flex;
 }
 .testi{
-  margin-left: 20%;
+  margin-left: 32%;
 }
 
 .bladoggoodie{
@@ -802,13 +851,20 @@ justify-content: center;
 margin: 0;
 padding: 0;
 list-style: none;
-margin-left: 10%;;
+margin-left: 6%;;
 }
 
 .row li {
 flex-basis: calc(33.33% - 10px);
-margin: 40px;
+margin: 20px;
 padding: 10px;
+display: flex;
+gap: 5%;
+}
+.flex-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 @media only screen and (max-width: 768px) {
@@ -819,6 +875,8 @@ padding: 10px;
 /* Overskrifter */
 .overskrifter{
 width: 99%;
+margin-top: 0%;
+margin-bottom: 0%;
 }
 /* grid mosaik */
 .container {
@@ -865,12 +923,19 @@ grid-column: span 2/auto;
   width: 50%;
 }
 .herounit1_overskrift{
-  margin-left: 10%;
+  margin-left: 6%;
   margin-top: 5%;
 }
 /* populære */
 .numbers{
-width: 8%;
+width: 14%;
+margin-left: 0%;
+}
+.hoover_pop:hover{
+transform: translateY(-3px) scale(1.1);
+}
+.a_style{
+  text-align: unset;
 }
 /* kanaler  */ 
 .iphones{
@@ -886,16 +951,17 @@ margin-left: 70px;
 }
 .Goodiebox-button-section{
   border: none;
-  width: 166px;
-  height: 40px;
+  width: 360px;
+  height: 60px;
   color: white;
   background:black;
-  margin-left: 45%;
+  margin-left: 37%;
   margin-top: 3%;
+  margin-bottom: 0%;
   }
   .Goodiebox-button-section:hover{
-    color:black;
-  background: white;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
   }
 
 /* smugkig*/
@@ -1012,49 +1078,45 @@ h2 {
 h3{
   text-align: center;
 }
+.accept_text{
+  font-size: 10px;
+}
 /*---------------------------------- footer--------------------------------------*/
 footer {
   background: #000;
   color: #fff;
-  padding: 40px 0;
-  font-size: 16px;
 }
 
 .container_footer {
-  max-width: 1140px;
-  margin: 0 auto;
+ display: flex; 
+ justify-content: center;
 }
 
 .row_footer {
   display: flex;
-  flex-wrap: wrap;
-}
-
-.col-md-3 {
-  width: 25%;
-  padding: 0 15px;
-  box-sizing: border-box;
 }
 
 .h4footer {
-  margin-bottom: 20px;
-  font-weight: 600;
+  margin-right: 35%;
+text-align: center;
+font-size: 16px;
 }
 
 .ul_f {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+margin-left: none;
+list-style: none;
 }
 
 .li_f {
-  margin-bottom: 10px;
+float: none;
+list-style: none;
 }
 .sociale{
   display: flex;
   justify-content: end;
 margin-right: 10%;
 }
+
 h3{
   font-family: 'Roboto', sans-serif;
   Font-weight:400;

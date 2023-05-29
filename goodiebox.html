@@ -5,13 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="goodiebox.css" />
+    <meta name="robots" content="noindex">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+        </style>
     <title>Document</title>
 </head>
 <body>
+     <nav id="header-nav">
+    <div class="menu">
+     <img  class="logo" src="logo.svg" alt="logo" >
+      <div class="menu2">
+        <button class="abonnement-button" onclick="window.location.href = 'abonnement.html';" >ABONNEMENT</button>
+        <button class="Goodiebox-button" onclick="window.location.href = 'goodiebox.html';">GOODIEBOX</button> 
+        <img src="Billeder/search.svg" alt="search">
+    </div>
+      </div>
+      <button id="burgermenu">☰ </button>
+      <ul id="nav-list">
+        <li><a class="underline-animation" href="#">COSTUME GREEN <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul class="costumeg">
+            <li><a href="underside.html">Mode</a></li>
+            <li><a href="underside.html">Skøn</a></li>
+            <li><a href="underside.html">Sund</a></li>
+            <li><a href="underside.html">Kultur</a></li>
+            <li><a href="underside.html">Living</a></li>
+          </ul>
+      </li>
+        <li><a class="underline-animation"  href="#">MODE <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+            <li><a href="underside.html">Modeuge</a></li>
+            <li><a href="underside.html">Shopping</a></li>
+            <li><a href="underside.html">Streetstyle</a></li>
+            <li><a href="underside.html">Interview</a></li>
+            <li><a href="underside.html">Mini</a></li>
+          </ul>
+        </li>
+        <li><a class="underline-animation"  href="#">SKØN <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="underside.html">Nyheder</a></li>
+              <li><a href="underside.html">Makeup</a></li>
+              <li><a href="underside.html">Hår</a></li>
+              <li><a href="underside.html">Hudpleje</a></li>
+              <li><a href="underside.html">#skønhedsfavoritter</a></li>
+            </ul></li>
+        <li><a class="underline-animation"  href="#">SUND <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="underside.html">Træning</a></li>
+              <li><a href="underside.html">Opskrifter</a></li>
+            </ul></li>
+        <li><a class="underline-animation"  href="#">KULTUR <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="underside.html">Film & serier</a></li>
+              <li><a href="underside.html">Rejse</a></li>
+              <li><a href="underside.html">Spisesteder</a></li>
+            </ul></li>
+        <li><a class="underline-animation" href="#">LIVING <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+            <li><a href="underside.html">Horoskop</a></li>
+            <li><a href="underside.html">Boliger</a></li>
+            <li><a href="underside.html">Boligfund</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav> 
     <section>
         <h1>Velkommen til Costume Goodiebox</h1>
-        <p>En Goodiebox er en box der følger med hvert nyudkomne magasin, som er spækket med spændende produkter, som er nøje udvalgte af Costum´s skønhedsredaktør.</p>
-        <button>Tegn et abonnoment</button>
+        <p>En Goodiebox er en box der følger med hvert nyudkomne magasin, som er spækket med spændende produkter, <br><br> som er nøje udvalgte af Costum´s skønhedsredaktør.</p>
     </section>
     <section>
         <div class="star_row">
@@ -30,11 +90,12 @@
             <div>
                 <img class="star" src="Billeder/star.svg" alt="star">
                 <h3>Værdi for pengene</h3>
-                <p>Altid værdi for minimum 650 kr.<br>
-                <br> Produkterne er altid enten anbefalet<br> <br> eller bedømt i medfølgende magasin</p>
+                <p>Særligt udvalgte produkter<br>
+                <br> Altid værdi for minimum 650 kr.</p>
             </div>
         </div>
     </section>
+    <button class="provnu">PRØV NU</button>
 <section>
     <img class="storimg" src="Billeder/goodie_siden.webp" alt="goodie">
 </section>
@@ -45,17 +106,17 @@
     </div>
     <div class="produkter_row">
         <div>
-            <img src="Billeder/mac.webp" alt="mac">
+            <img class="produkt" src="Billeder/mac.webp" alt="mac">
             <h6>Mac, Strobe Dewy skin</h6>
             <h6>Værdi: 300 kr. </h6>
         </div>
         <div>
-            <img src="Billeder/creme.webp" alt="creme">
+            <img class="produkt"  src="Billeder/creme.webp" alt="creme">
             <h6>Mesoéstetic, Melan 130+ Pigment Control</h6>
             <h6>Værdi: 400 kr.  </h6>
         </div>
         <div>
-            <img src="Billeder/chanel.webp" alt="chanel">
+            <img class="produkt"  src="Billeder/chanel.webp" alt="chanel">
             <h6>Chanel, Les Beiges Bronzing Cream (reklame)</h6>
             <h6>Værdi: 394 kr.  </h6>
         </div>
@@ -63,22 +124,21 @@
 
     <div class="produkter_row">
         <div>
-            <img src="Billeder/maanesten.svg" alt="maanesten">
+            <img class="produkt"  src="Billeder/maanesten.svg" alt="maanesten">
             <h6>Rabatkode (Reklame)</h6>
         </div>
         <div>
-            <img src="Billeder/drops.webp" alt="drops">
+            <img class="produkt"  src="Billeder/drops.webp" alt="drops">
             <h6>Elizabeth Arden, White Tea Skin Solutions</h6>
             <h6>Værdi: 514 kr.</h6>
         </div>
         <div>
-            <img src="Billeder/gosh.svg" alt="gosh">
-            <h6>Chanel, Les Beiges Bronzing Cream (reklame)</h6>
+            <img class="produkt"  src="Billeder/gosh.svg" alt="gosh">
             <h6>Rabatkode (Reklame)</h6>
         </div>
     </div>
     <div>
-        <button>Tegn abonnoment</button>
+        <button class="provnu">PRØV NU</button>
     </div>
 </section>
     <script src="java.js"></script>

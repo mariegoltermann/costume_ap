@@ -16,15 +16,15 @@
     <div class="menu">
       <img class="logo" src="logo.svg" alt="logo">
       <div class="menu2">
-        <button class="abonnement-button" onclick="window.location.href = 'abonnement.html';" >Abonnement</button>
-        <button class="Goodiebox-button" onclick="window.location.href = 'goodiebox.html';">Goodiebox</button> 
+        <button class="abonnement-button" onclick="window.location.href = 'abonnement.html';" >ABONNEMENT</button>
+        <button class="Goodiebox-button" onclick="window.location.href = 'goodiebox.html';">GOODIEBOX</button> 
         <img src="Billeder/search.svg" alt="search">
     </div>
       </div>
       <button id="burgermenu">☰ </button>
       <ul id="nav-list">
         <li><a class="underline-animation" href="#">COSTUME GREEN <img src="Billeder/dropdown.svg" alt="drop"></a>
-          <ul>
+          <ul class="costumeg">
             <li><a href="underside.html">Mode</a></li>
             <li><a href="underside.html">Skøn</a></li>
             <li><a href="underside.html">Sund</a></li>
@@ -77,7 +77,7 @@
             <div>
               <h2 class="herounit1_overskrift">Vind teaterkort & teaterbilletter til</h2> 
               <img class="kongeligoverskrift" src="Billeder/konegligeoverskrift.svg" alt="kongelig">
-              <button onclick="window.location.href = 'underkategori.html';" class="tilmed-button">Tilmed konkurrence</button>
+              <button onclick="window.location.href = 'underkategori.html';" class="tilmed-button">TILMED KONKURRENCE</button>
             </div>
           </div>
         </div>
@@ -181,37 +181,69 @@
         <img class="overskrifter" src="Billeder/populaere.svg" alt="nyeste">
       <div class="list-container">
         <ul class="row">
-          <li>
+          <li class="hoover_pop">
           <img class="numbers" src="Billeder/1.svg" alt="et">
+          <a class="a_style" href="underkategori.html">
+          <div class="flex-wrap">
+          <h4>MODE</h4>
           <p>Denne taske er gået viralt på TikTok, og den koster 150kr. </p>
+        </div></a>
           </li>
-          <li>
+          <li class="hoover_pop">
             <img class="numbers" src="Billeder/2.svg" alt="et">
+            <a class="a_style" href="underkategori.html">
+            <div class="flex-wrap">
+              <h4>SKØNHED</h4>
             <p>Sophie Gøhler: Dette er mine 8 skønhedsfavoritter</p> 
+          </div></a>
           </li>
-          <li>
+          <li class="hoover_pop">
             <img class="numbers" src="Billeder/3.svg" alt="et">
+            <a class="a_style" href="underkategori.html">
+            <div class="flex-wrap">
+              <h4>SKØNHED</h4>
             <p>Ud med sort mascara – nu skal vipperne have denne farve</p>
+          </div></a>
           </li>
-          <li>
+          <li class="hoover_pop">
             <img class="numbers" src="Billeder/4.svg" alt="et">
+            <a class="a_style" href="underkategori.html">
+            <div class="flex-wrap">
+              <h4>MODE</h4>
             <p>Undgå tøjkrise med disse 5 råd</p>
+          </div></a>
           </li>
-          <li>
+          <li class="hoover_pop">
             <img class="numbers" src="Billeder/5.svg" alt="et">
+            <a class="a_style" href="underkategori.html">
+            <div class="flex-wrap">
+              <h4>COSTUME GREEN</h4>
             <p>Nu kan du shoppe online i 252 genbrugsbutikker</p>
+          </div></a>
           </li>
-          <li>
+          <li class="hoover_pop">
             <img class="numbers" src="Billeder/6.svg" alt="et">
+            <a class="a_style" href="underkategori.html">
+            <div class="flex-wrap">
+              <h4>KULTUR</h4>
             <p>3 af Malmøs bedste genbrugsbutikker</p>
+          </div></a>
           </li>
-          <li>
+          <li class="hoover_pop">
             <img class="numbers" src="Billeder/7.svg" alt="et">
+            <a class="a_style" href="underkategori.html">
+            <div class="flex-wrap">
+              <h4>KULTUR</h4>
             <p>3 billige og gode kaffesteder i København</p>
+          </div></a>
           </li>
-          <li>
+          <li class="hoover_pop">
             <img class="numbers" src="Billeder/8.svg" alt="et">
+            <a class="a_style" href="underkategori.html">
+            <div class="flex-wrap">
+              <h4>MODE</h4>
             <p>De vildeste "cat-fits" til dette års Met Gala</p>
+          </div></a>
           </li>
         </ul>
       </div>
@@ -220,26 +252,21 @@
 <section>
   <img class="overskrifter" src="Billeder/kanaler.svg" alt="nyeste">
   <h2>Følg med på vores social kanaler og få de nyeste opdateringer</h2>
-  <h3>@costumedk</h3>
+  <h3 class="costumedk">@costumedk</h3>
   <img class="iphones" src="Billeder/kanaler.webp" alt="iphones">
 </section>
     </section>
     <section>
       <img class="overskrifter" src="Billeder/goodiebox.svg" alt="nyeste">
       <img class="goodiebox-teaser" src="Billeder/goodiebox_teaser.webp" alt="goodiebox">
-      <button class="Goodiebox-button-section" onclick="window.location.href = 'goodiebox.html';">Se tilbud</button>
+      <button class="Goodiebox-button-section" onclick="window.location.href = 'goodiebox.html';">SE TILBUD</button>
     </section>
     <section>
       <img class="overskrifter" src="Billeder/smugkig.svg" alt="nyeste">
       <style>
         .parallax {
-          /* The image used */
           background-image: url("billeder/smugkig.png");
-        
-          /* Set a specific height */
           min-height: 200px; 
-        
-          /* Create the parallax scrolling effect */
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
@@ -264,9 +291,9 @@
           <input type="email" id="email" name="email" required>
           <div class="accepter">
            <input id="accept-knap" type="checkbox" id="accept-terms" name="accept-terms" required>
-          <label for="accept-terms">I accept the terms and conditions</label>
+          <label for="accept-terms" class="accept_text">I accept the terms and conditions</label>
         </div>
-          <button class="submit" type="submit">Tilmed</button>
+          <button class="submit" type="submit">TILMELD</button>
 
         </div>
         <div class="info-section">
@@ -293,7 +320,7 @@
               <li class="li_f">Abonnér nu</li>
               <li class="li_f">Wype - digitalt magasin</li>
               <li class="li_f">Podcast</li>
-              <li>Kontakt redaktionen</li>
+              <li class="li_f">Kontakt redaktionen</li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -307,7 +334,7 @@
           <div class="col-md-3">
             <h4 class="h4footer">Udgiver</h4>
             <ul class="ul_f">
-              <li class="li_f">   Bonnier Publications International A/S
+              <li class="li_f">   Bonnier Publications International A/S <br> <br>
                   Postboks 543 1411 Kolbotn Norge Org.: 977041066</li>
             </ul>
           </div>

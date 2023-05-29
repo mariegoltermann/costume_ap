@@ -5,9 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="underside.css" />
+    <meta name="robots" content="noindex">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+      </style>
     <title>Document</title>
 </head>
 <body>
+  <nav id="header-nav">
+    <div class="menu">
+      <img  class="logo" src="logo.svg" alt="logo" >
+      <div class="menu2">
+        <button class="abonnement-button" onclick="window.location.href = 'abonnement.html';" >ABONNEMENT</button>
+        <button class="Goodiebox-button" onclick="window.location.href = 'goodiebox.html';">GOODIEBOX</button> 
+        <img src="Billeder/search.svg" alt="search">
+    </div>
+      </div>
+      <button id="burgermenu">☰ </button>
+      <ul id="nav-list">
+        <li><a class="underline-animation" href="#">COSTUME GREEN <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul class="costumeg">
+            <li><a href="underside.html">Mode</a></li>
+            <li><a href="underside.html">Skøn</a></li>
+            <li><a href="underside.html">Sund</a></li>
+            <li><a href="underside.html">Kultur</a></li>
+            <li><a href="underside.html">Living</a></li>
+          </ul>
+      </li>
+        <li><a class="underline-animation"  href="#">MODE <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+            <li><a href="underside.html">Modeuge</a></li>
+            <li><a href="underside.html">Shopping</a></li>
+            <li><a href="underside.html">Streetstyle</a></li>
+            <li><a href="underside.html">Interview</a></li>
+            <li><a href="underside.html">Mini</a></li>
+          </ul>
+        </li>
+        <li><a class="underline-animation"  href="#">SKØN <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="underside.html">Nyheder</a></li>
+              <li><a href="underside.html">Makeup</a></li>
+              <li><a href="underside.html">Hår</a></li>
+              <li><a href="underside.html">Hudpleje</a></li>
+              <li><a href="underside.html">#skønhedsfavoritter</a></li>
+            </ul></li>
+        <li><a class="underline-animation"  href="#">SUND <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="underside.html">Træning</a></li>
+              <li><a href="underside.html">Opskrifter</a></li>
+            </ul></li>
+        <li><a class="underline-animation"  href="#">KULTUR <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+              <li><a href="underside.html">Film & serier</a></li>
+              <li><a href="underside.html">Rejse</a></li>
+              <li><a href="underside.html">Spisesteder</a></li>
+            </ul></li>
+        <li><a class="underline-animation" href="#">LIVING <img src="Billeder/dropdown.svg" alt="drop"></a>
+          <ul>
+            <li><a href="underside.html">Horoskop</a></li>
+            <li><a href="underside.html">Boliger</a></li>
+            <li><a href="underside.html">Boligfund</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav> 
     <section>
         <h1>Costume Green</h1>
         <p>Costume handler altid om det nye sort, men vi saetter også fokus på en anden farve: grøn. Mere specifik: grøn mode. Baeredygtig mode og skønhed fylder mere og mere i mærkernes bevidsthed, og det er en nødvendighed, hvis vi stadig vil have ren luft at traekke ned i vores lunger, grønne skove, rent havvand og vilde dyr. Derfor vil vi her guide dig til alle de grønne tips, modenyheder, mærker, butikker, personer og skønhedsprodukter, der alt sammen hjælper jorden lidt mod det bedre. Store forandringer begynder småt.</p>
@@ -74,12 +135,14 @@
             <img class="overskrifter" src="Billeder/opdag.svg" alt="nyeste">
           </section>
           <section>
-          <div class="menu_linjen">
-            <h4>MODE</h4>
-            <h4>SKØN</h4>
-            <h4>KULTUR</h4>
-            <h4>LIVING</h4>
-            <button>Sorter efter <img src="Billeder/dropdownwhite.svg" alt="drop"></button>
+          <div class="menu_linjen_desk">
+            <div class="menu_linjen">
+            <h4 class="underline-animation">MODE</h4>
+            <h4 class="underline-animation">SKØN</h4>
+            <h4 class="underline-animation">KULTUR</h4>
+            <h4 class="underline-animation">LIVING</h4>
+          </div>
+            <button class="sorter">SORTER EFTER <img src="Billeder/dropdownwhite.svg" alt="drop"></button>
           </div>
 
         </section>
