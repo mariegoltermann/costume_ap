@@ -317,6 +317,36 @@
 #underline{
   text-decoration: underline #681543;
 }
+/*----------------------------- footer mobil -------------------------------*/
+footer {
+  background: #000;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.h4footer {
+margin-left: 10%;
+text-align: unset;
+font-size: 16px;
+margin-block-end: none;
+
+}
+
+.ul_f {
+margin-left: none;
+list-style: none;
+}
+
+.li_f {
+float: none;
+list-style: none;
+}
+.sociale{
+  display: flex;
+  justify-content: end;
+margin-right: 10%;
+}
+
 /*------------------------------ navigation starter----------------------------*/
 .logo{
   width: 40%;
@@ -455,4 +485,39 @@ background-color: #681543;
 color:#D9D1DE;
 }
 /*------------------------------ navigation slutter----------------------------*/
+/*---------------------------------- footer--------------------------------------*/
+footer {
+  background: #000;
+  color: #fff;
+}
+
+.container_footer {
+ display: flex; 
+ justify-content: center;
+}
+
+.row_footer {
+  display: flex;
+}
+
+.h4footer {
+  margin-right: 35%;
+text-align: center;
+font-size: 16px;
+}
+
+.ul_f {
+margin-left: none;
+list-style: none;
+}
+
+.li_f {
+float: none;
+list-style: none;
+}
+.sociale{
+  display: flex;
+  justify-content: end;
+margin-right: 10%;
+}
 }
