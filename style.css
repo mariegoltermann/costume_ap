@@ -438,7 +438,14 @@ margin-top: 5%;
 .smugkig_over{
 width: 100%;
 }
-
+.parallax {
+  background-image: url("billeder/smugkig.webp");
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* tilmeld */
 .newsletter-box {
   display: flex;
@@ -969,7 +976,14 @@ margin-left: 70px;
 .smugkig_over{
 width: 100%;
 }
-
+.parallax {
+  background-image: url("billeder/smugkig.webp");
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* pop up tilmed dig til nyhedsbrev */
 /* Popup-containeren */
 .popup {

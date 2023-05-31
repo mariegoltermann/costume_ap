@@ -1,6 +1,43 @@
 * {
     box-sizing: border-box;
   }
+  /*------------------ fonte start -----------------------*/
+@font-face {
+  font-family: "nelphim";
+  src: url("fonts/nephilm-webfont.woff2") format("woff2");
+}
+h1{
+  font-family: "nelphim";
+}
+h2{
+  font-family: "nelphim";
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+label{
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+}
+/*------------------ fonte slut -----------------------*/
   body {
     margin: 0;
     padding: 0;
@@ -519,5 +556,40 @@ list-style: none;
   display: flex;
   justify-content: end;
 margin-right: 10%;
+}
+@font-face {
+  font-family: "nelphim";
+  src: url("fonts/nephilm-webfont.woff2") format("woff2");
+}
+h1{
+  font-family: "nelphim";
+}
+h2{
+  font-family: "nelphim";
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+label{
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  font-family: 'Roboto', sans-serif;
 }
 }
