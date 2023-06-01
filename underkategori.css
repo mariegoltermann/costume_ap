@@ -261,6 +261,34 @@ a{
 #underline{
   text-decoration: underline #681543;
 }
+/*----------------------------- footer mobil -------------------------------*/
+footer {
+  background: #000;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.h4footer {
+  text-align: unset;
+font-size: 16px;
+margin-block-end: none;
+
+}
+
+.ul_f {
+margin-left: none;
+list-style: none;
+}
+
+.li_f {
+float: none;
+list-style: none;
+}
+.sociale{
+  display: flex;
+  justify-content: end;
+margin-right: 10%;
+}
   @media only screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -353,35 +381,6 @@ a{
   }
 #underline{
   text-decoration: underline #681543;
-}
-/*----------------------------- footer mobil -------------------------------*/
-footer {
-  background: #000;
-  color: #fff;
-  margin-top: 5%;
-}
-
-.h4footer {
-margin-left: 10%;
-text-align: unset;
-font-size: 16px;
-margin-block-end: none;
-
-}
-
-.ul_f {
-margin-left: none;
-list-style: none;
-}
-
-.li_f {
-float: none;
-list-style: none;
-}
-.sociale{
-  display: flex;
-  justify-content: end;
-margin-right: 10%;
 }
 
 /*------------------------------ navigation starter----------------------------*/
@@ -538,9 +537,8 @@ footer {
 }
 
 .h4footer {
-  margin-right: 35%;
-text-align: center;
 font-size: 16px;
+text-align: unset;
 }
 
 .ul_f {

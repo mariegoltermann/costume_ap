@@ -259,8 +259,7 @@ footer {
 }
 
 .h4footer {
-margin-left: 10%;
-text-align: unset;
+  text-align: unset;
 font-size: 16px;
 margin-block-end: none;
 
@@ -280,23 +279,6 @@ list-style: none;
   justify-content: end;
 margin-right: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*** -------------------- desktop ------------------------------------------------**/ 
@@ -570,9 +552,8 @@ footer {
 }
 
 .h4footer {
-  margin-right: 35%;
-text-align: center;
 font-size: 16px;
+text-align: unset;
 }
 
 .ul_f {

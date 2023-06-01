@@ -512,8 +512,7 @@ footer {
 }
 
 .h4footer {
-margin-left: 10%;
-text-align: unset;
+  text-align: unset;
 font-size: 16px;
 margin-block-end: none;
 
@@ -1112,9 +1111,8 @@ footer {
 }
 
 .h4footer {
-  margin-right: 35%;
-text-align: center;
 font-size: 16px;
+text-align: unset;
 }
 
 .ul_f {
