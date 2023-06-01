@@ -1,3 +1,4 @@
+
 /*------------------ fonte start -----------------------*/
 @font-face {
   font-family: "nelphim";
@@ -35,6 +36,10 @@ a{
   font-family: 'Roboto', sans-serif;
 }
 /*------------------ fonte slut -----------------------*/
+body {
+  margin: 0;
+  padding: 0;
+}
 #burgermenu {
   padding: 0.5rem;
   height: 3rem;
@@ -211,6 +216,9 @@ color:#D9D1DE;
   align-items: stretch; 
   margin: 20px; 
 }
+.divone{
+margin: 8%;
+}
 
 .box {
   background-color: #D9D1DE;
@@ -230,15 +238,18 @@ color:#D9D1DE;
 
 .videre-button {
   padding: 10px 20px;
-  border: none;
-  font-size: 16px;
-  margin-top: 10px;
-  cursor: pointer;
-  margin-left: 25%;
-width: 200px;
-height: 60px;
-background: #681543;
-color: #D9D1DE;
+border: none;
+font-size: 16px;
+margin-top: 20px;
+cursor: pointer;
+margin-left: 8%;
+width: 321px;
+height: 54px;
+background: black;
+color: white;
+}
+.mestpop{
+  visibility: hidden;
 }
 /*----------------------------- footer mobil -------------------------------*/
 footer {
@@ -269,6 +280,24 @@ list-style: none;
   justify-content: end;
 margin-right: 10%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*** -------------------- desktop ------------------------------------------------**/ 
 @media only screen and (min-width: 768px) {
@@ -337,13 +366,17 @@ a{
   .bigger-box {
     flex-basis: 40%;
   }
-  
+  .mestpop{
+    visibility:inherit;
+  }
   .box h2 {
     font-size: 26px;
     margin-bottom: 10px;
     text-align: center;
     margin-bottom: 5%;
   }
+  .divone{
+    margin: 0%;
   }
   img{
     margin-bottom: 10%;
@@ -367,13 +400,11 @@ a{
   }
   
   .videre-button {
-   
     padding: 10px 20px;
     border: none;
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
-    position: absolute;
     margin-left: 71%;
 width: 369px;
 height: 60px;
@@ -384,42 +415,7 @@ color: white;
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
      transform: translateY(-3px) scale(1.1);
   }
- /*---------------------------------- footer--------------------------------------*/
-footer {
-  background: #000;
-  color: #fff;
-  margin-top: 10%; 
-}
-
-.container_footer {
- display: flex; 
- justify-content: center;
-}
-
-.row_footer {
-  display: flex;
-}
-
-.h4footer {
-  margin-right: 35%;
-text-align: center;
-font-size: 16px;
-}
-
-.ul_f {
-margin-left: none;
-list-style: none;
-}
-
-.li_f {
-float: none;
-list-style: none;
-}
-.sociale{
-  display: flex;
-  justify-content: end;
-margin-right: 10%;
-}
+ 
 /*------------------------------ navigation starter----------------------------*/
   .logo{
     width: 40%;
@@ -558,5 +554,40 @@ margin-right: 10%;
   color:#D9D1DE;
   }
   /*------------------------------ navigation slutter----------------------------*/
-  
+  /*---------------------------------- footer--------------------------------------*/
+footer {
+  background: #000;
+  color: #fff;
+}
+
+.container_footer {
+ display: flex; 
+ justify-content: center;
+}
+
+.row_footer {
+  display: flex;
+}
+
+.h4footer {
+  margin-right: 35%;
+text-align: center;
+font-size: 16px;
+}
+
+.ul_f {
+margin-left: none;
+list-style: none;
+}
+
+.li_f {
+float: none;
+list-style: none;
+}
+.sociale{
+  display: flex;
+  justify-content: end;
+margin-right: 10%;
+}
+}
 
